@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>立川真帆の自己紹介ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="page_header" id="pageHeader">
+        <div class="page">
+            <button class="menu_btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+                <span class="menu_state">
+                    <img src="MENU.PNG" alt="メニュー（手書き文字）">
+                </span>
+                <span class="close_state" aria-hidden="true">
+                    <hr>
+                    <hr>
+                </span>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="MAHORIWEB.PNG" alt="マホリンwebのロゴ（手書き文字）">
+            </a>
+
+            <ul class="header_sns">
+                <li><a href="https://x.com/" target="_blank" rel="noopener">X</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">IG</a></li>
+            </ul>
+        </div>
+
+        <nav id="globalNav">
+            <ul class="global_nav">
+                <li><a href="#about" class="nav_link">About</a></li>
+                <li><a href="#hobby" class="nav_link">Hobby</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+            <ul class="nav_sns">
+                <li><a href="https://x.com/" target="_blank" rel="noopener">X</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">IG</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- About -->
+        <section id="about">
+            <h1><span class="icon">◆</span>About</h1>
+
+            <article class="frame">
+                <figure class="main_image">
+                    <img src="profile.jpg" alt="マホリンのプロフィール画像" width="200" height="200">
+                    <figcaption>マホリン</figcaption>
+                </figure>
+
+                <div class="text">
+                    <h2>自己紹介</h2>
+                    <dl>
+                        <dt>名前</dt>
+                        <dd>タチカワ マホ</dd>
+                        <dt>出身</dt>
+                        <dd>福岡市</dd>
+                        <dt>一言</dt>
+                        <dd>皆んなからマホリンと呼ばれているせいで、<dd>
+                        <dd>最近知らない人から本名が"マホリン"だと思われています。気軽に呼んでください。</dd>
+                    </dl>
+
+                    <h2>座右の銘</h2>
+                    <p class="motto">「はじまれば終わる」</p>
+
+                    <h2>人生で一度はやってみたいこと</h2>
+                    <p>バックパックで世界一周、スカイダイビング、子供を産む、W杯現地観戦、オーロラ見る、気球に乗る、起業、孫をみる、海外で1ヶ月以上生活する、月面を歩く、樹海探索、リムジンパーティ、値札を見ずに物を買う、ヘリコプター操縦、登山、老後に夫婦で旅行、アウシュビッツ強制収容所観光、無人島で一泊、イルカと泳ぐ、10万人以上に使われるサービスを作る、ひ孫をみる、投資で資産形成する、世界遺産50個巡る、47都道府県制覇、無重力体験、本を出版する、ルーブル美術館</p>
+
+                    <h2>今後の目標</h2>
+                    <p>人との約束はもちろん、自分との約束も守る</p>
+
+                    <h2>ラストに一言</h2>
+                    <p>人と話すことが好きなので、たくさん話しかけてください</p>
+                    <p>本当にだれでも</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Hobby -->
+        <section id="hobby">
+            <h1><span class="icon">◆</span>Hobby</h1>
+
+            <div class="hobby-grid">
+                <article class="hobby-item">
+                    <h3>ゴハン</h3>
+                    <p>あり得ないくらい（自称、福岡市top10）大食いです。</p>
+                    <p>料理も得意です（経験をもとに味付けがウマイ）。</p>
+                </article>
+
+                <article class="hobby-item">
+                    <h3>ゲーム・アニメ・マンガ</h3>
+                    <p>ゲームはスプラトゥーンとブロックブラストならウマイです。（辞めたけど荒野行動も）</p>
+                    <p>アニメ・マンガは全ジャンルみます。</p>
+                    <p>最近（3月時点）はチェンソーマン2部、MONSTERを読みました。</p>
+                </article>
+
+                <article class="hobby-item">
+                    <h3>音楽</h3>
+                    <p>色んなの聴きます、たまにベースとアコギも弾きます。絶対音感は無いです</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h1><span class="icon">◆</span>Contact</h1>
+            <p class="contact_lead">連絡先交換大歓迎です^_^ 気軽に連絡してください。</p>
+            <ul class="sns-list">
+                <li><a href="https://x.com/" target="_blank" rel="noopener">X（旧Twitter）</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><small>&copy; 2026 マホリン</small></p>
+        <p class="works-note">Works：作品ページは近日公開予定です。公開時にお知らせします^_^</p>
+    </footer>
+
+    <script src="mahori.js"></script>
+</body>
+</html>
