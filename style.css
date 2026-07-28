@@ -259,33 +259,11 @@ section h1 .icon {
 }
 
 /* 自己紹介の箱 */
+
 .frame {
   position: relative;
   border: 1px solid var(--color-line);
   padding: 50px;
-}
-
-.frame::before,
-.frame::after {
-  content: '';
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  border: 2px solid var(--color-accent);
-}
-
-.frame::before {
-  top: -8px;
-  left: -8px;
-  border-right: none;
-  border-bottom: none;
-}
-
-.frame::after {
-  bottom: -8px;
-  right: -8px;
-  border-left: none;
-  border-top: none;
 }
 
 .main_image {
